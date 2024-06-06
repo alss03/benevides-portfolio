@@ -196,15 +196,15 @@ body {
 }
 
 .rodape {
-    padding: 6px;
+
     background-color: var(--cor-primaria);
-    color: var(--cor-terciaria);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: space-around;
     font-family: var(--fonte-secundaria);
     font-size: 1.05rem;
-    font-weight: 200
+    font-weight: 200;
 }
 
 .footer-text {
